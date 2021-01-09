@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="moon.png" type="image/x-icon">
+  <title>Isha End Time</title>
+</head>
+<body>
+  <div class="scene">
+    <h1>End Time of Isha Calculator</h1>
+    <img src="moon.png" alt="Crescent moon" class="moon">
+    <p class="text">The Prophet Muhammad (peace and blessings of Allah be upon him) said: “The time of ‘Isha’ is until midnight” (narrated by Muslim, al-Masaajid wa Mawaadi’ al-Salaah, 964).<br> This is half the time between the start of ‘Isha’ and the start of Fajr. Below is a calculator that will determine when ‘Isha’ prayer ends.</p>
+    
+    
+    <form>
+      <label for="fajr_time">Please select the start time for Fajr </label>
+      <select id="fajr_hour">
+        <option disable selected>hour</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+
+      <select id="fajr_minute">
+        <option disable selected>minute</option>
+
+        <option value="00">00</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="02">12</option>
+        <option value="03">13</option>
+        <option value="04">14</option>
+        <option value="05">15</option>
+        <option value="06">16</option>
+        <option value="07">17</option>
+        <option value="08">18</option>
+        <option value="09">19</option>
+
+        <option value="00">20</option>
+        <option value="01">21</option>
+        <option value="02">22</option>
+        <option value="03">23</option>
+        <option value="04">24</option>
+        <option value="05">25</option>
+        <option value="06">26</option>
+        <option value="07">27</option>
+        <option value="08">28</option>
+        <option value="09">29</option>
+        
+        <option value="00">30</option>
+        <option value="01">31</option>
+        <option value="02">32</option>
+        <option value="03">33</option>
+        <option value="04">34</option>
+        <option value="05">35</option>
+        <option value="06">36</option>
+        <option value="07">37</option>
+        <option value="08">38</option>
+        <option value="09">39</option>
+
+        <option value="00">40</option>
+        <option value="01">41</option>
+        <option value="02">42</option>
+        <option value="03">43</option>
+        <option value="04">44</option>
+        <option value="05">45</option>
+        <option value="06">46</option>
+        <option value="07">47</option>
+        <option value="08">48</option>
+        <option value="09">49</option>
+
+        <option value="00">50</option>
+        <option value="01">51</option>
+        <option value="02">52</option>
+        <option value="03">53</option>
+        <option value="04">54</option>
+        <option value="05">55</option>
+        <option value="06">56</option>
+        <option value="07">57</option>
+        <option value="08">58</option>
+        <option value="09">59</option>
+      </select>
+      am. <br>
+    
+      <label for="isha_time">Please select the start time for Isha </label>
+      <select id="isha_hour">
+        <option disable selected>hour</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+
+      <select id="isha_minute">
+        <option disable selected>minute</option>
+
+        <option value="00">00</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="02">12</option>
+        <option value="03">13</option>
+        <option value="04">14</option>
+        <option value="05">15</option>
+        <option value="06">16</option>
+        <option value="07">17</option>
+        <option value="08">18</option>
+        <option value="09">19</option>
+
+        <option value="00">20</option>
+        <option value="01">21</option>
+        <option value="02">22</option>
+        <option value="03">23</option>
+        <option value="04">24</option>
+        <option value="05">25</option>
+        <option value="06">26</option>
+        <option value="07">27</option>
+        <option value="08">28</option>
+        <option value="09">29</option>
+        
+        <option value="00">30</option>
+        <option value="01">31</option>
+        <option value="02">32</option>
+        <option value="03">33</option>
+        <option value="04">34</option>
+        <option value="05">35</option>
+        <option value="06">36</option>
+        <option value="07">37</option>
+        <option value="08">38</option>
+        <option value="09">39</option>
+
+        <option value="00">40</option>
+        <option value="01">41</option>
+        <option value="02">42</option>
+        <option value="03">43</option>
+        <option value="04">44</option>
+        <option value="05">45</option>
+        <option value="06">46</option>
+        <option value="07">47</option>
+        <option value="08">48</option>
+        <option value="09">49</option>
+
+        <option value="00">50</option>
+        <option value="01">51</option>
+        <option value="02">52</option>
+        <option value="03">53</option>
+        <option value="04">54</option>
+        <option value="05">55</option>
+        <option value="06">56</option>
+        <option value="07">57</option>
+        <option value="08">58</option>
+        <option value="09">59</option>
+      </select>
+      pm. <br>
+      
+    </form>
+    <button onclick="get_variables()" class="btn">Calculate</button>
+    <h3 id="demo" class="demo">The end time for Isha is 11:03pm.</h3>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
