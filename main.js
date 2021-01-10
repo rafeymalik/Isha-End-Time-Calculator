@@ -74,7 +74,7 @@ function get_variables() {
   const halfway = isha_length(converted_fajr, converted_isha, midnight);
   const end_time = time_form(halfway);
   const time_day = daytime(end_time);
-  document.getElementById("demo").innerHTML = "The end time for Isha is " + end_time + time_day + ".";
+  document.getElementById("demo").innerHTML = "The end time for ‘Isha’ is " + end_time + time_day + ".";
   
 }
 
